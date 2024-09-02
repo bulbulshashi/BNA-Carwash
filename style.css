@@ -1,0 +1,376 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+body{
+  background-color: #ffffff;
+}
+.navbar{
+  background-color: #03256d;
+  width: 1380px;
+  height: 100px;
+  position: fixed;
+  display:flex;
+  justify-content:space-evenly;
+  align-items: center;
+  border: 2px solid #ffffff;
+}
+.carwash{
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+}
+.about-us a{
+color: #ffffff;     /*same for help and ?*/
+font-size: 30px;
+text-decoration:none;
+font-family: 
+'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.about-us a:hover{
+  color: #ffffff;     /*same for help and ?*/
+  font-size: 33px;
+  text-decoration:none;
+  font-family: 
+  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+.div-for-search{
+  display:flex;
+  justify-content:space-between;
+
+ background-color:#ffffff;
+ border-radius: 7px;
+}
+.searchBar{
+  background-color: #ffffff;
+
+ 
+ width: 500px;
+ color: #03256c;
+ font-size: 16px;
+ padding: 10px;
+ border-radius: 7px;
+
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ 
+}
+.searchBar:hover{
+  background-color: #ffffff;
+
+ 
+ width: 500px;
+ color: #03256c;
+ font-size: 22px;
+ padding: 10px;
+ border-radius: 7px;
+
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ 
+}
+.bookNow{
+  background-color:#03256c  ;
+  width:auto;
+  height: 45px;
+  align-items: center;
+  border:3px solid #ffffff;
+  padding: 2px;
+  border-radius: 5px;
+}
+.bookNow:hover{
+  background-color:white  ;
+  width:auto;
+  height: 45px;
+  align-items: center;
+  border:3px solid #1768ac;
+  padding: 2px;
+  border-radius: 5px;
+  color: #03256c;
+}
+.bookNow:active{
+  background-color:white  ;
+  width:auto;
+  height: 45px;
+  align-items: center;
+  border:3px solid #1768ac;
+  padding: 2px;
+  border-radius: 5px;
+  color: #03256c;
+  opacity: .7;
+}
+.bookNow a{
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ text-decoration: none;
+ color:#ffffff;
+ font-size: 35px;
+ font-weight:bold;
+ font-weight: bold;
+
+}
+.bookNow a:hover{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  color:#03256c;
+  font-size: 36px;
+  font-weight:bold;
+  font-weight: bold;
+ 
+ }
+.icon{
+  width: 40px;
+  height: 30px;
+  background-color: #ffffff;
+  font-size: 30px;
+
+  border-radius: 7px;
+  align-items: center;
+
+}
+.icon button{
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 7px;
+  color: #03256c;
+  font-size: 30px;
+  padding-top: 6px;
+  cursor: pointer;
+}
+.bell{
+  font-size: 40px;
+  
+}
+.bodyImage{
+  background-color:#ffffff;
+  width: 1160px;
+  height: 370px;
+ border-radius: 7px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content:start;
+  margin-top: 180px;
+  margin-left: 100px;
+  z-index: -1;
+}
+
+.carwash_main{
+  border-left: 3px solid #ffffff;
+  border-right: 3px solid #ffffff;
+  margin-left: 135px;
+  border-radius: 7px;
+  
+}
+.main-text{
+
+  background-color:#ffffff;
+  width: 480px;
+  height: 350px;
+  margin-left: 10px;
+  opacity: 1;
+  border-radius: 7px;
+  
+ text-align:start;
+
+
+  
+
+}
+@keyframes aniName {
+  from {color: #03256c; margin-left: 500px;}
+  to {color: #03256c;padding-left: 80px;}
+}
+.main-text h1{
+
+ animation: aniName;
+ animation-duration: 2s;
+
+ padding-left: 80px;
+ padding-top: 40px;
+
+ 
+  color:#03256c;
+  font-size: 70px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+@keyframes forP{
+  from{padding-top: 1000px;}
+  to{padding-top:40px ;}
+
+}
+.main-text p{
+  padding-top: 40px;
+  padding-left: 10px;
+  color: #03256c;
+  font-size: 40px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+animation: forP;
+animation-duration: 2s;
+
+
+}
+@keyframes bar{
+  from{height: 0px;}
+  to{height: 180px;}
+}
+.bar{
+  width: 10px;
+  height: 180px;
+  margin-top: 40px;
+  margin-left: 30px;
+
+  background-color:#03256c ;
+ position: absolute;
+ animation: bar;
+ animation-duration: 2s;
+}
+@keyframes bar2{
+  from{width:  0px;}
+  to{width:  180px;}
+}
+.bar2{
+  width: 180px;
+  height: 10px;
+  margin-top: 35px;
+  margin-left: 30px;
+  transform: rotate(180deg);
+
+  background-color: #03256c;
+ position: absolute;
+ animation: bar2;
+ animation-duration: 2s;
+}
+@keyframes bar3{
+  from{width:  0px;}
+  to{width:  280px;}
+}
+.bar3{
+  width: 280px;
+  height: 10px;
+  margin-top: 115px;
+  margin-left: 30px;
+  transform: rotate(180deg);
+
+  background-color: #03256c;
+ position: absolute;
+ animation: bar3;
+ animation-duration: 2s;
+}
+@keyframes bar4{
+  from{width:  0px;}
+  to{width:  350px;}
+}
+.bar4{
+  width: 350px;
+  height: 10px;
+  margin-top: 215px;
+  margin-left: 30px;
+  transform: rotate(180deg);
+
+  background-color:#03256c;
+ position: absolute;
+ animation: bar4;
+ animation-duration: 2s;
+}
+
+.service-section{
+  width: 1160px;
+  z-index: -2;
+  margin-left: 100px;
+ 
+  margin-top: 600px;
+  position: absolute;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+}
+.service-section p{
+  font-size: 24px;
+}
+@keyframes ani{
+  from{margin-top: -20000px;}
+  to{margin-top: 10px;}
+}
+.basic{
+  background-color:#ffffff;
+  width: 1150px;
+  height: 200px;
+  border-radius: 7px;
+  border: 5px solid  #1768ac;
+  margin-top: 10px;
+  animation-name: ani;
+  animation-duration: 3s;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #03256c;
+  font-size: 90px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.normal{
+  background-color:#ffffff;
+  width: 1150px;
+  height: 200px;
+  border-radius: 7px;
+  border: 5px solid #1768ac;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #03256c;
+  font-size: 90px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.premium{
+  background-color:#ffffff;
+  width: 1150px;
+  height: 200px;
+  border-radius: 7px;
+  border: 5px solid #1768ac;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #03256c;
+  font-size: 90px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.elite{
+  background-color:#ffffff;
+  width: 1150px;
+  height: 200px;
+  border-radius: 7px;
+  border: 5px solid #1768ac;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #03256c;
+  font-size: 90px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+.carwash-toon{
+  width: 305px;
+  height: auto;
+  border-radius: 7px;
+
+ 
+}
+.footer{
+  background-color: #03256c;
+  width: 1380px;
+  height: 200px;
+  position: absolute;
+  text-align: center;
+  padding-top: 40px;
+  margin-top: 1800px;
+  color: #ffffff;
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* 03256c 2541b2 1768ac 06bee1 ffffff */
